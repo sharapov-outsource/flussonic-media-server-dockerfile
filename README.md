@@ -4,7 +4,7 @@
 
 ```bash
 git clone git@github.com:sharapov-outsource/flussonic-media-server-dockerfile.git mediasrv
-cd mediasrc
+cd mediasrv
 cp etc/flussonic/flussonic.conf_sample etc/flussonic/flussonic.conf
 cp etc/flussonic/license.txt_sample etc/flussonic/license.txt
 docker-compose up -d
