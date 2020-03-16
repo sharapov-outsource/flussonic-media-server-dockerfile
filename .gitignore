@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+log
+!log/.gitkeep
+
+etc/flussonic
+!etc/flussonic/flussonic.conf
+!etc/flussonic/license.txt

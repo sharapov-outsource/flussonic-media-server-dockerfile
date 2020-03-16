@@ -1,0 +1,25 @@
+version: '3'
+services:
+  flussonic:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: flussonic_container
+    restart: always
+    ports:
+      - 8122:80
+      - 8443:443
+      - 554:554
+      - 1554:1554
+      - 1935:1935
+      - 1443:1443
+    volumes:
+      - ./etc/flussonic:/etc/flussonic
+      - ./log:/var/log/flussonic
+      - ./storage:/storage
+    networks:
+      - flussonic_backend
+
+networks:
+  flussonic_backend:
+

@@ -1,0 +1,30 @@
+# Global settings:
+http 80;
+rtsp 554;
+rtsps 1554;
+rtmp 1935;
+rtmps 1443;
+pulsedb /var/lib/flussonic;
+session_log /var/lib/flussonic;
+view_auth flussonic letmein!;
+edit_auth flussonic letmein!;
+
+# DVRs:
+
+# Remote sources:
+
+# Ingest streams:
+stream demo {
+  url fake://fake;
+}
+
+# Dynamic rewrites:
+
+# Publish locations:
+
+# Disk file caches:
+
+# VOD locations:
+
+# Plugins:
+
