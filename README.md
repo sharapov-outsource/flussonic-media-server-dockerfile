@@ -29,3 +29,8 @@ docker exec -it flussonic_container /bin/bash
 docker exec -it flussonic_container dpkg -l | grep flussonic
 ```
 
+#### How to update flussonic within running container
+```bash
+
+```
+

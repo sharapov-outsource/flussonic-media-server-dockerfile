@@ -2,6 +2,8 @@
 .idea
 log
 !log/.gitkeep
+storage
+!storage/.gitkeep
 
 etc/flussonic
 !etc/flussonic/flussonic.conf
